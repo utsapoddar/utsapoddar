@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @utsapoddar
 - 👀 I’m interested in data analytics
-- 🌱 I’m currently learning Physics @UofC
 - 💞️ I’m looking to collaborate on anything Python related
 - 📫 How to reach me utsapoddarjobs@gmail.com
 
