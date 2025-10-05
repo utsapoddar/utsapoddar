@@ -16,7 +16,7 @@ Python • MATLAB • SQL • Jupyter Notebook • pandas • NumPy • matplotl
 
 ## 📌 Featured projects
 
-- **[Physics & Numerical Methods Projects](https://github.com/utsapoddar/physics-python-projects)** — Jupyter notebooks for calculus-based motion, curve fitting and optimization, Fourier analysis, pendulum dynamics, and more.
+-a **[Physics & Numerical Methods Projects](https://github.com/utsapoddar/physics-python-projects)** — Jupyter notebooks for calculus-based motion, curve fitting and optimization, Fourier analysis, pendulum dynamics, and more.
 - **[Fluid Dynamics](https://github.com/utsapoddar/fluid_dynamics)** — MATLAB scripts and a final report modelling vortex and circulation calculations from a fluid dynamics course.
 - **[SQL Queries](https://github.com/utsapoddar/SQL-queries)** — Analytical SQL examples on a sample database schema; includes PDF schema visualization.
 - **[Codewars Solutions](https://github.com/utsapoddar/codewars-solutions)** — My solutions to Codewars katas in Python, organized in Jupyter notebooks.
