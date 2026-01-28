@@ -30,6 +30,6 @@ You can contact me at **[utsapoddarjobs@gmail.com](mailto:utsapoddarjobs@gmail.c
 <!---
 utsapoddar/utsapoddar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-<!-- Minor formatting update -->You can click thePreviewlto take look at your 
+<!-- Minor formatting update -->You can click thePreviewlto tak look at your 
 <!-- no-->
 
