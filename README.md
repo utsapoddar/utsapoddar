@@ -17,8 +17,6 @@ Physics-trained developer who turns complex problems into clean, reliable soluti
 
 Python · SQL · MATLAB · Jupyter · pandas · NumPy · matplotlib · n8n · APIs · Git/GitHub · LLMs
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=utsapoddar&count_private=true&show_icons=true&hide=stars)
-
 ## Featured Projects
 
 - **[n8n Automation Workflows](https://github.com/utsapoddar/n8n-projects)** — Exported workflow definitions for AI-powered Discord bots, Slack summarization, and other automation flows using n8n
