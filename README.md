@@ -19,10 +19,17 @@ Python · SQL · MATLAB · Jupyter · pandas · NumPy · matplotlib · n8n · AP
 
 ## Featured Projects
 
-- **[n8n Automation Workflows](https://github.com/utsapoddar/n8n-projects)** — Exported workflow definitions for AI-powered Discord bots, Slack summarization, and other automation flows using n8n
-- **[Physics & Numerical Methods](https://github.com/utsapoddar/physics-python-projects)** — Jupyter notebooks covering calculus-based motion, curve fitting, Fourier analysis, pendulum dynamics, and more
-- **[Fluid Dynamics Simulations](https://github.com/utsapoddar/fluid_dynamics)** — MATLAB scripts modeling vortex and circulation calculations with a full project report
+- **[Sift Work Timer](https://github.com/utsapoddar/sift-work-timer)** — Cross-platform Flutter app (iOS/Android/macOS/Windows) with alarms, phase transitions, and streak tracking; distributed via AltStore and Google Play
+- **[Job Application Automation](https://github.com/utsapoddar/job_application_automation)** — End-to-end pipeline that scrapes job boards, tailors resumes with LLMs, tracks applications, and manages outreach
+- **[n8n Automation Workflows](https://github.com/utsapoddar/n8n-projects)** — Exported workflow definitions for AI-powered Discord bots, Slack summarization, and other automation flows
 - **[SQL Analytics Examples](https://github.com/utsapoddar/SQL-queries)** — Analytical queries demonstrating joins, window functions, CTEs, and aggregation on a sample schema
+- **[Fraud Detection Pipeline](https://github.com/utsapoddar/Fintech-Project)** — Credit card fraud detection project exploring transaction data and building a classification pipeline
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=utsapoddar&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=38CDD6&icon_color=38CDD6&text_color=ffffff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=utsapoddar&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=38CDD6&text_color=ffffff)
 
 ## Let's Connect
 
