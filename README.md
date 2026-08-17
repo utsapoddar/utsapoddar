@@ -16,8 +16,6 @@ Physics-trained developer building data pipelines, applied ML, and LLM-powered s
 
 **[Alpha Digest](https://github.com/utsapoddar/alpha-digest)** — A weekly investor-intelligence pipeline that runs itself. Ingests SEC EDGAR Form 4 and 13F filings, corporate crypto treasuries, commodity prices, and 12 financial RSS feeds; cross-references them against a 25-entity watchlist; summarizes with an LLM behind a three-model retry chain; renders with Jinja2; then emails subscribers and publishes to GitHub Pages — every Monday, on GitHub Actions cron. **[Read the current issue →](https://utsapoddar.github.io/alpha-digest)**
 
-**[LiDAR Room Designer](https://github.com/utsapoddar/ai-interior-designer)** — Turns an iPhone RoomPlan scan into a furniture plan for your *actual* room. The USDZ mesh is parsed into structured geometry, a vision LLM extracts taste and constraints, and a deterministic Python solver owns final placement — checking clearances, door swings, and walking paths. FastAPI backend, React/Three.js preview, CI on every push.
-
 **[MSDS Time Estimator](https://github.com/utsapoddar/msds-time-estimator)** — Bayesian estimator predicting how long a CU Boulder MSDS course will take *you*, anchored on courses you've already finished. Course posteriors update from crowdsourced review data under a tempered weight so heavily-reviewed courses tighten confidence without drowning the prior; outputs are uncertainty-aware with 80% intervals. Full derivation in [MODEL.md](https://github.com/utsapoddar/msds-time-estimator/blob/main/MODEL.md).
 
 **[PCOS Food Scanner](https://github.com/utsapoddar/pcos-scanner)** — Scan a barcode or a photo, get a PCOS-aware score and serving advice. Nutrient scoring is deterministic and rule-based; the LLM only personalizes and explains it against your profile. Streamlit + Supabase, with tests over scoring, vision, barcode parsing, and migrations.
@@ -39,7 +37,7 @@ Physics-trained developer building data pipelines, applied ML, and LLM-powered s
 
 ## Elsewhere
 
-[Physics simulations](https://github.com/utsapoddar/physics-python-projects) · [SQL analytics](https://github.com/utsapoddar/SQL-queries) · [n8n workflows](https://github.com/utsapoddar/n8n-projects) · [Fraud detection](https://github.com/utsapoddar/Fintech-Project) · [Fluid dynamics](https://github.com/utsapoddar/fluid_dynamics)
+[LiDAR room designer (prototype)](https://github.com/utsapoddar/ai-interior-designer) · [Physics simulations](https://github.com/utsapoddar/physics-python-projects) · [SQL analytics](https://github.com/utsapoddar/SQL-queries) · [n8n workflows](https://github.com/utsapoddar/n8n-projects) · [Fraud detection](https://github.com/utsapoddar/Fintech-Project) · [Fluid dynamics](https://github.com/utsapoddar/fluid_dynamics)
 
 ---
 
