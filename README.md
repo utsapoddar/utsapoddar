@@ -24,12 +24,14 @@ Physics-trained developer building data pipelines, applied ML, and LLM-powered s
 
 **[DopaKernel](https://github.com/utsapoddar/dopa-kernel)** — A control kernel for AI coding agents that keeps the authorized objective as a hard gate rather than a weighted score, so a perceived "better idea" can't silently replace the instruction. Separates adherence, verified progress, and completion evidence.
 
+**[Cadence](https://github.com/utsapoddar/cadence)** — Eight therapeutic sound modules synthesized live in the browser with the Web Audio API: AM-modulated 40 Hz gamma, binaural beats, and a user-calibrated notch filter for tinnitus. Every module is gated on peer-reviewed clinical support with an evidence tier and DOI as structured fields, and the exclusions are documented as deliberately as the inclusions. A NumPy/SciPy script regenerates each spec as reference WAVs to check the JS synthesis against an independent implementation. **[Try it →](https://utsapoddar.github.io/cadence/)**
+
 **[Sift Work Timer](https://github.com/utsapoddar/sift-work-timer)** — Cross-platform Flutter work timer (iOS / Android / macOS / Windows) with alarms, phase transitions, and streak tracking. Distributed via AltStore and Google Play.
 
 ## Stack
 
-**Languages** Python · SQL · Dart · TypeScript · MATLAB
-**Data & ML** pandas · NumPy · PyMC · scikit-learn · Jupyter
+**Languages** Python · SQL · JavaScript · Dart · TypeScript · MATLAB
+**Data & ML** pandas · NumPy · SciPy · PyMC · scikit-learn · Jupyter
 **Backend & Infra** FastAPI · Streamlit · SQLite/FTS5 · Supabase · GitHub Actions
 **LLM** Gemini · Groq · NVIDIA NIM · prompt/tool design · retrieval
 
