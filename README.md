@@ -14,7 +14,7 @@ Physics-trained developer building data pipelines, applied ML, and LLM-powered s
 
 ## Selected Work
 
-**[Alpha Digest](https://github.com/utsapoddar/investor-insight)** — A weekly investor-intelligence pipeline that runs itself. Ingests SEC EDGAR Form 4 and 13F filings, corporate crypto treasuries, commodity prices, and 12 financial RSS feeds; cross-references them against a 25-entity watchlist; summarizes with an LLM behind a three-model retry chain; renders with Jinja2; then emails subscribers and publishes to GitHub Pages — every Monday, on GitHub Actions cron. **[Read the current issue →](https://utsapoddar.github.io/alpha-digest)**
+**[Alpha Digest](https://github.com/utsapoddar/alpha-digest)** — A weekly investor-intelligence pipeline that runs itself. Ingests SEC EDGAR Form 4 and 13F filings, corporate crypto treasuries, commodity prices, and 12 financial RSS feeds; cross-references them against a 25-entity watchlist; summarizes with an LLM behind a three-model retry chain; renders with Jinja2; then emails subscribers and publishes to GitHub Pages — every Monday, on GitHub Actions cron. **[Read the current issue →](https://utsapoddar.github.io/alpha-digest)**
 
 **[LiDAR Room Designer](https://github.com/utsapoddar/ai-interior-designer)** — Turns an iPhone RoomPlan scan into a furniture plan for your *actual* room. The USDZ mesh is parsed into structured geometry, a vision LLM extracts taste and constraints, and a deterministic Python solver owns final placement — checking clearances, door swings, and walking paths. FastAPI backend, React/Three.js preview, CI on every push.
 
