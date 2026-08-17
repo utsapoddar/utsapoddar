@@ -22,6 +22,8 @@ Physics-trained developer building data pipelines, applied ML, and LLM-powered s
 
 **[PCOS Food Scanner](https://github.com/utsapoddar/pcos-scanner)** — Scan a barcode or a photo, get a PCOS-aware score and serving advice. Nutrient scoring is deterministic and rule-based; the LLM only personalizes and explains it against your profile. Streamlit + Supabase, with tests over scoring, vision, barcode parsing, and migrations.
 
+**[Engram](https://github.com/utsapoddar/engram)** — Durable, auditable memory for AI coding agents. Markdown notes under a typed schema, SQLite FTS5 retrieval, a replacement-first correction journal that recovers from a crash mid-write, and a recall@5 harness so retrieval quality is measured rather than assumed. Credential rejection and reasoning-stripping run on every write. 71 tests.
+
 **[DopaKernel](https://github.com/utsapoddar/dopa-kernel)** — A control kernel for AI coding agents that keeps the authorized objective as a hard gate rather than a weighted score, so a perceived "better idea" can't silently replace the instruction. Separates adherence, verified progress, and completion evidence.
 
 **[Cadence](https://github.com/utsapoddar/cadence)** — Eight therapeutic sound modules synthesized live in the browser with the Web Audio API: AM-modulated 40 Hz gamma, binaural beats, and a user-calibrated notch filter for tinnitus. Every module is gated on peer-reviewed clinical support with an evidence tier and DOI as structured fields, and the exclusions are documented as deliberately as the inclusions. A NumPy/SciPy script regenerates each spec as reference WAVs to check the JS synthesis against an independent implementation. **[Try it →](https://utsapoddar.github.io/cadence/)**
