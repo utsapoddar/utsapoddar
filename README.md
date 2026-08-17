@@ -1,36 +1,42 @@
-# Utsa Poddar — Data Analytics & Automation
+# Utsa Poddar
 
-Physics-trained developer who turns complex problems into clean, reliable solutions. I combine scientific rigor with practical engineering to build tools for data analysis, workflow automation, and numerical modeling.
+Physics-trained developer building data pipelines, applied ML, and LLM-powered systems. I like problems where a model has to survive contact with messy real-world data — and where the reasoning is auditable rather than a black box.
 
 **[Portfolio](https://utsapoddar.github.io)** · **[LinkedIn](https://www.linkedin.com/in/utsa-poddar)** · **[utsapoddarjobs@gmail.com](mailto:utsapoddarjobs@gmail.com)**
 
 ---
 
-## Focus Areas
+## What I Work On
 
-- **Data Analysis & SQL** — extracting actionable insights from data with Python (pandas, NumPy) and SQL
-- **Workflow Automation** — building automated pipelines with n8n, APIs, and scripting
-- **Numerical Modeling & Simulation** — solving differential equations and simulating physical systems
-- **LLM Toolbuilding** — integrating generative AI into practical automation workflows
+- **Data & ML** — Bayesian modeling, uncertainty-aware estimation, classification pipelines
+- **LLM Systems** — treating model output as advisory and keeping a deterministic component authoritative
+- **Automation & Backend** — scheduled pipelines, multi-source ingestion, APIs, CI
 
-## Tech Stack
+## Selected Work
 
-Python · SQL · MATLAB · Jupyter · pandas · NumPy · matplotlib · n8n · APIs · Git/GitHub · LLMs
+**[Alpha Digest](https://github.com/utsapoddar/investor-insight)** — A weekly investor-intelligence pipeline that runs itself. Ingests SEC EDGAR Form 4 and 13F filings, corporate crypto treasuries, commodity prices, and 12 financial RSS feeds; cross-references them against a 25-entity watchlist; summarizes with an LLM behind a three-model retry chain; renders with Jinja2; then emails subscribers and publishes to GitHub Pages — every Monday, on GitHub Actions cron. **[Read the current issue →](https://utsapoddar.github.io/alpha-digest)**
 
-## Featured Projects
+**[LiDAR Room Designer](https://github.com/utsapoddar/ai-interior-designer)** — Turns an iPhone RoomPlan scan into a furniture plan for your *actual* room. The USDZ mesh is parsed into structured geometry, a vision LLM extracts taste and constraints, and a deterministic Python solver owns final placement — checking clearances, door swings, and walking paths. FastAPI backend, React/Three.js preview, CI on every push.
 
-- **[Sift Work Timer](https://github.com/utsapoddar/sift-work-timer)** — Cross-platform Flutter app (iOS/Android/macOS/Windows) with alarms, phase transitions, and streak tracking; distributed via AltStore and Google Play
-- **[Job Application Automation](https://github.com/utsapoddar/job_application_automation)** — End-to-end pipeline that scrapes job boards, tailors resumes with LLMs, tracks applications, and manages outreach
-- **[n8n Automation Workflows](https://github.com/utsapoddar/n8n-projects)** — Exported workflow definitions for AI-powered Discord bots, Slack summarization, and other automation flows
-- **[SQL Analytics Examples](https://github.com/utsapoddar/SQL-queries)** — Analytical queries demonstrating joins, window functions, CTEs, and aggregation on a sample schema
-- **[Fraud Detection Pipeline](https://github.com/utsapoddar/Fintech-Project)** — Credit card fraud detection project exploring transaction data and building a classification pipeline
+**[MSDS Time Estimator](https://github.com/utsapoddar/msds-time-estimator)** — Bayesian estimator predicting how long a CU Boulder MSDS course will take *you*, anchored on courses you've already finished. Course posteriors update from crowdsourced review data under a tempered weight so heavily-reviewed courses tighten confidence without drowning the prior; outputs are uncertainty-aware with 80% intervals. Full derivation in [MODEL.md](https://github.com/utsapoddar/msds-time-estimator/blob/main/MODEL.md).
 
-## GitHub Stats
+**[PCOS Food Scanner](https://github.com/utsapoddar/pcos-scanner)** — Scan a barcode or a photo, get a PCOS-aware score and serving advice. Nutrient scoring is deterministic and rule-based; the LLM only personalizes and explains it against your profile. Streamlit + Supabase, with tests over scoring, vision, barcode parsing, and migrations.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=utsapoddar&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=38CDD6&icon_color=38CDD6&text_color=ffffff)
+**[DopaKernel](https://github.com/utsapoddar/dopa-kernel)** — A control kernel for AI coding agents that keeps the authorized objective as a hard gate rather than a weighted score, so a perceived "better idea" can't silently replace the instruction. Separates adherence, verified progress, and completion evidence.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=utsapoddar&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=38CDD6&text_color=ffffff)
+**[Sift Work Timer](https://github.com/utsapoddar/sift-work-timer)** — Cross-platform Flutter work timer (iOS / Android / macOS / Windows) with alarms, phase transitions, and streak tracking. Distributed via AltStore and Google Play.
 
-## Let's Connect
+## Stack
 
-I'm actively looking for data analytics, developer, and automation roles. If you'd like to collaborate or have an opportunity, feel free to reach out!
+**Languages** Python · SQL · Dart · TypeScript · MATLAB
+**Data & ML** pandas · NumPy · PyMC · scikit-learn · Jupyter
+**Backend & Infra** FastAPI · Streamlit · SQLite/FTS5 · Supabase · GitHub Actions
+**LLM** Gemini · Groq · NVIDIA NIM · prompt/tool design · retrieval
+
+## Elsewhere
+
+[Physics simulations](https://github.com/utsapoddar/physics-python-projects) · [SQL analytics](https://github.com/utsapoddar/SQL-queries) · [n8n workflows](https://github.com/utsapoddar/n8n-projects) · [Fraud detection](https://github.com/utsapoddar/Fintech-Project) · [Fluid dynamics](https://github.com/utsapoddar/fluid_dynamics)
+
+---
+
+I'm open to data science, ML, and backend/automation roles. Based in Calgary, Alberta. If something here is relevant to your team, reach out at **[utsapoddarjobs@gmail.com](mailto:utsapoddarjobs@gmail.com)**.
